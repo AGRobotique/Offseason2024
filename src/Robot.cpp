@@ -3,7 +3,7 @@
 Robot::Robot() {
   // To add a subsystem, add an object to the array and change the constant
   subsystems = new Subsystem* [RobotConstants::kNumberOfSubsystems] {
-    new Drivetrain() /*, new Intake(), new Lift(), new Shooter()*/
+    new Drivetrain(), new Intake(), new Lift(), new Shooter()
   };
 }
 

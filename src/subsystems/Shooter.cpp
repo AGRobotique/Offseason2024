@@ -35,7 +35,7 @@ void Shooter::rotateTurretFromInput() {
 
 void Shooter::runShooterWheelsFromInput() {
   // Toggle and not press
-  if (CrcLib::ReadDigitalChannel(BUTTON::L1)) {
+  if (CrcLib::ReadDigitalChannel(BUTTON::R1)) {
     if (!isButtonAlreadyPressed) {
       isButtonAlreadyPressed = true;
       isShooterToggled = !isShooterToggled;

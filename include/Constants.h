@@ -15,7 +15,7 @@
 #define SERVO_AGITATOR CRC_PWM_10
 
 namespace RobotConstants {
-constexpr int kNumberOfSubsystems = 1;
+constexpr int kNumberOfSubsystems = 4;
 constexpr int kAnalogChannelMaxValue = 127;
 }  // namespace RobotConstants
 
